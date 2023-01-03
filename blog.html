@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <a href="index.html" ><img src=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Our Blog</h1>
+    </section>
+
+        <section class="blog-content">
+            <div class="row">
+                <div class="blog-left">
+                    <img src="imgs/looking.jpeg">
+                    <h2>Looking ahead to 2023</h2>
+                    <p>
+                        As a trucking company, we are always looking for ways to increase our profits and improve our efficiency. 
+                        This year, we are focusing on expanding our fleet and finding new customers to transport more loads. We are also 
+                        implementing new technologies such as GPS tracking systems and electronic logging devices to better track our trucks and shipments.
+                        </p>
+                        <br>
+                        <p>In addition to improving our operations, we are also focused on building and strengthening relationships with our customers and partners. 
+                        We are working closely with shippers to understand their needs and developing customized solutions to meet those needs. 
+                        We are also building strong partnerships with other trucking companies and logistics providers to create a more efficient and 
+                        effective supply chain.
+                        </p>
+                        <br>
+                        <p>
+                        Overall, we are excited about the opportunities and challenges that the year will bring, and we are confident that 
+                        our hard work and dedication will lead to continued success for our company.
+                    </p>
+
+                    <div class="comment-box">
+
+                        <h3>Leave a comment below</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="email" placeholder="Enter Email">
+                            <textarea row="7" placeholder="Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+
+                        </form>
+                    </form>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h3>Post Categories</h3>
+                    <div>
+                        <span>Business Analytics</span>
+                        <span>6</span>
+                    </div>
+                    <div>
+                        <span>Inbound and Outbound freight</span>
+                        <span>9</span>
+                    </div>
+                    <div>
+                        <span>Order Fulfillment</span>
+                        <span>16</span>
+                    </div>
+                    <div>
+                        <span>Fuel Prices</span>
+                        <span>99</span>
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+    
+    
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>We are a small, 
+            family-owned business that has been operating for over 5 years. 
+            We specialize in the transportation of goods across the country, 
+            <br>with a focus on delivering time-sensitive and temperature-controlled cargo.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+
+
+
+<script>
+
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-210px";
+        }
+
+
+</script>
+
+</body>
+</html>
+
+
